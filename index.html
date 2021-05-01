@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/arpitkapoor0000@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <br>
+        <input type="text" name="shop" placeholder="Shop Name">
+        <br>
+        <input type="tel" id="phone" name="phone" placeholder="Mobile Number" pattern="[6789]{1}[0-9]{9}" maxlength="10">
+        <input type="hidden" name="_subject" value="New Order!">
+        
+        <br>
+        <textarea name="order_details" id="order_details" cols="30" rows="10" placeholder="Order Details" required></textarea>
+        <br>
+        <button type="submit">Send</button>
+   </form>
+</body>
+</html>
